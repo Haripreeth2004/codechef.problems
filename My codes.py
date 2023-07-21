@@ -1,8 +1,7 @@
-# cook your dish here
 testcase = int(input())
 for i in range (testcase):
-    tom = int(input("Speed of Tom"))
-    jerry =int(input("Speed of Jerry"))
+    jerrytom = input()
+    jerry, tom = map(int, jerrytom.split())
     if (tom>jerry):
         print("YES")
     else:
